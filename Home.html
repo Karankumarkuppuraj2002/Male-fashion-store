@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Male Fashion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body class="bg-white">
+
+
+  <nav class="bg-black text-white p-3 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <p class="text-sm sm:text-base">
+        Free shipping, 30-day return or refund guarantee.
+      </p>
+      <ul class="flex gap-6 text-sm sm:text-base">
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">USD</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <nav class="p-6 bg-white shadow relative ">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div id="logo">
+        <img src="https://themewagon.github.io/malefashion/img/logo.png">
+      </div>
+
+      <div class="hidden md:flex  items-center gap-10">
+        <ul class="flex text-lg gap-6">
+          <ul class="flex gap-6">
+            <li class="relative group">
+              <a href="#" class="text-black underline"> <span class="p-1">Home</span></a>
+
+            </li>
+
+            <li class="relative group">
+              <a href="#" class="text-black">Shop</a>
+              <span
+                class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </li>
+
+            <li class="relative group">
+              <a href="#" class="text-black">Pages</a>
+              <span
+                class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </li>
+
+            <li class="relative group">
+              <a href="#" class="text-black">Blog</a>
+              <span
+                class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </li>
+
+            <li class="relative group">
+              <a href="#" class="text-black">Contact</a>
+              <span
+                class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+            </li>
+          </ul>
+
+        </ul>
+        <ul class="flex items-center ms-60 gap-5">
+          <li><a href="#"><img src="https://themewagon.github.io/malefashion/img/icon/search.png"></a></li>
+          <li><a href="#"><img src="https://themewagon.github.io/malefashion/img/icon/heart.png"></a></li>
+          <li><a href="#"><img src="https://themewagon.github.io/malefashion/img/icon/cart.png"></a></li>
+          <li class="font-bold text-black">$0.00</li>
+        </ul>
+      </div>
+      <button id="menu-button" class="md:hidden flex flex-col gap-1 ml-4">
+        <span class="w-6 h-0.5 bg-black"></span>
+        <span class="w-6 h-0.5 bg-black"></span>
+        <span class="w-6 h-0.5 bg-black"></span>
+      </button>
+    </div>
+
+
+    <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white text-black shadow-lg z-50">
+
+
+      <div class="flex gap-6 p-4 border-b font-medium">
+        <a href="#">Sign In</a>
+        <a href="#">FAQs</a>
+        <a href="#">USD</a>
+      </div>
+
+
+      <div class="flex gap-6 p-4 border-b">
+        <a href="#"><img src="https://themewagon.github.io/malefashion/img/icon/search.png"></a>
+        <a href="#"><img src="https://themewagon.github.io/malefashion/img/icon/heart.png"></a>
+        <a href="#"><img src="https://themewagon.github.io/malefashion/img/icon/cart.png"></a>
+        <span class="font-bold">$0.00</span>
+      </div>
+      <div class="p-4">
+        <ul class="flex flex-col text-lg gap-4 mb-4 text-left">
+          <li class="underline"><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="p-4 border-t text-sm text-left">
+        Free shipping, 30-day return or refund guarantee.
+      </div>
+    </div>
+  </nav>
+  <div class="relative w-full h-screen overflow-hidden">
+    <img id="caurosel" class="w-full h-full object-cover transition-opacity duration-700 ease-in-out opacity-100"
+      src="assests/hero-1.jpg" alt="image1">
+    <div id="Text" class="absolute inset-0 flex flex-col justify-center px-6 sm:px-15 md:px-20 
+              text-center sm:text-left mt-20 sm:mt-60 ms-0 sm:ms-40 
+              transition-opacity duration-700 ease-in-out opacity-100">
+
+      <p id="subText" class="text-red-500 text-lg sm:text-xl mb-2">
+        Summer Collections
+      </p>
+      <h1 id="mainHeading1" class="text-3xl sm:text-5xl font-bold text-black">
+        Fall-Winter
+      </h1>
+      <h1 id="mainHeading2" class="text-3xl sm:text-5xl font-bold text-black mt-2">
+        Collections 2030
+      </h1>
+      <p id="para" class="text-gray-600 text-base sm:text-lg font-light mt-4 max-w-md mx-auto sm:mx-0">
+        A Specialist label creating luxury essentials.
+        <br class="hidden sm:block">
+        Ethically crafted with an unwavering commitment to exceptional quality.
+      </p>
+      <div class="bg-black text-white w-fit px-6 mt-10 py-3 p-6 mx-auto sm:mx-0 
+                rounded cursor-pointer transform transition-all duration-300 hover:bg-red-600 hover:scale-105">
+        <span class="flex items-center gap-2">
+          SHOP NOW <i class="fas fa-arrow-right"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="absolute inset-x-0 bottom-16 flex justify-center gap-5 text-xl px-6 
+            sm:bottom-4 sm:justify-start sm:px-60">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <div class="absolute left-4 bottom-4 md:bottom-auto md:top-1/2 transform md:-translate-y-1/2">
+      <i onclick="ArrowClick('prev')" class="fas fa-arrow-left text-3xl text-black cursor-pointer"></i>
+    </div>
+
+    <div class="absolute right-4 bottom-4 md:bottom-auto md:top-1/2 transform md:-translate-y-1/2">
+      <i onclick="ArrowClick('next')" class="fas fa-arrow-right text-3xl text-black cursor-pointer"></i>
+    </div>
+  </div>
+  </div>
+
+  <div class="max-w-6xl bg-white mt-[100px] h-full mx-auto  pl-30 ">
+
+    <div class="flex justify-end  sm:self-center p-11 ">
+      <img src="https://themewagon.github.io/malefashion/img/banner/banner-1.jpg">
+    </div>
+    <div class=" text-black md:ms-[430px]  pr-10 sm:mt-[-300px] px-2">
+      <h1 class="text-4xl font-bold  ">Clothing </h1>
+      <h1 class="text-4xl font-bold">Collections 2030</h1>
+      <p class="relative inline-block text-sm font-stretch-expanded text-black cursor-pointer group tracking-widest">
+        SHOP NOW
+        <span
+          class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-500 ease-in-out group-hover:w-full"></span>
+      </p>
+
+    </div>
+    <div class="p-7 mt-4">
+      <img src="https://themewagon.github.io/malefashion/img/banner/banner-2.jpg">
+    </div>
+    <div class="text-2xl text-black  ms-5 ">
+      <h1 class="text-4xl font-semibold ">Accesories</h1>
+      <p class="relative inline-block text-sm font-stretch-expanded text-black cursor-pointer group tracking-widest">
+        SHOP NOW
+        <span
+          class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-500 ease-in-out group-hover:w-full"></span>
+      </p>
+
+    </div>
+    <div class="flex justify-end p-5  md:mt-[-450px]">
+      <img src="https://themewagon.github.io/malefashion/img/banner/banner-3.jpg">
+    </div>
+    <div class="md:ms-[500px] md:mt-[-300px] ms-5">
+      <h1 class="text-black text-3xl font-bold">Shoes Spring </h1>
+      <h1 class="text-black text-3xl font-bold">2030</h1>
+      <p class="relative inline-block text-sm font-stretch-expanded text-black cursor-pointer group tracking-widest">
+        SHOP NOW
+        <span
+          class="absolute left-0 -bottom-1 h-0.5 w-0 bg-red-500 transition-all duration-500 ease-in-out group-hover:w-full"></span>
+      </p>
+    </div>
+  </div>
+  </div>
+  <div class="mt-[100px] sm:mt-[300px] flex flex-col sm:flex-row justify-center font-bold gap-2 text-center">
+
+    <div>
+      <h1 class="p-2 text-xl flex-col-1">Best Sellers</h1>
+    </div>
+
+    <div class="flex flex-row justify-center">
+      <h1 class="p-2 text-xl text-slate-400">New Arrivals</h1>
+      <h1 class="p-2 text-xl text-slate-400">Hot Sales</h1>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto  flex flex-col">
+  <div class="flex flex-col sm:flex-row justify-center items-center">
+
+  <div class="px-4 py-6">
+    <p class="border-2 bg-white text-sm px-2 absolute mt-5">new</p>
+    <img src="assests/product-1 (1).jpg" class=" sm:w-60">
+    <h1 class="text-sm  justify-start">Piqué Biker Jacket</h1>
+    <div class="p-1 text-sm text-slate-300 flex justify-start">
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+    
+    </div>
+     <h1 class="text-2xl font-bold text-black">$ 67.24</h1>
+  </div>
+
+  <div class="px-4 py-6">
+    <img src="assests/product-2.jpg" class="sm:w-60">
+    <h1 class="text-sm  justify-start">Piqué Biker Jacket</h1>
+    <div class="p-1 text-sm text-slate-300 flex justify-start ">
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+    </div>
+    <div>
+      <h1 class="text-2xl font-bold text-black">$ 67.24</h1>
+    </div>
+  </div>
+  <div class="flex flex-col sm:flex-row justify-center items-center">
+  <div class="px-4 py-6">
+    <p class="border-2 bg-black text-white text-sm px-2 absolute mt-5">Sale</p>
+    <img src="assests/product-3.jpg" class=" sm:w-60">
+    <h1 class="text-sm  justify-start">Multi-pocket Chest Bag</h1>
+    <div class="p-1 text-sm text-slate-300 flex justify-start ">
+      <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+     <i class="fa-solid fa-star"></i>
+    
+      <i class="fa-regular fa-star"></i>
+    </div>
+     <div>
+      <h1 class="text-2xl font-bold text-black">$ 43.48</h1>
+    </div>
+  </div>
+  <div class="px-4 py-6 ">
+  
+    <img src="assests/product-4.jpg" class=" sm:w-60">
+    <h1 class="text-sm  justify-start">Diagonal Texture Cap</h1>
+    <div class="p-1 text-sm text-slate-300 flex justify-start ">
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-star"></i>
+    </div>
+     <div>
+      <h1 class="text-2xl font-bold text-black">$ 60.9</h1>
+    </div>
+</div>
+
+  </div>
+  </div>
+<div class="max-w-7xl mx-auto mt-10 px-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+    <div class=" p-4 flex flex-col justify-start">
+      <img src="assests/product-5.jpg" class=" sm:w-56">
+      <h1 class="text-sm mt-2 justify-start">Leather BackPack</h1>
+      <div class="flex text-sm text-slate-400 mt-1">
+       <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h1 class="text-2xl font-bold text-black mt-2">$31.37</h1>
+    </div>
+
+    <div class=" p-4 flex flex-col justify-start">
+      <img src="assests/product-6.jpg " class=" sm:w-56">
+      <p class="border-2 bg-black text-white text-sm px-2 absolute mt-5">Sale</p>
+      <h1 class="text-sm mt-2 justify-start">Ankle Boots</h1>
+      <div class="flex text-sm text-slate-400 mt-1">
+     <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h1 class="text-2xl font-bold text-black mt-2">$31.37</h1>
+    </div>
+
+
+    <div class=" p-4 flex flex-col justify-start">
+      
+      <img src="assests/product-7.jpg" class=" sm:w-56">
+      <h1 class="text-sm mt-2 justify-start">T-shirt Contrast Pocket</h1>
+      <div class="flex text-sm  text-slate-400 mt-1">
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h1 class="text-2xl font-bold text-black mt-2">
+    
+$49.66</h1>
+    </div>
+    <div class=" p-4 flex flex-col justify-start">
+      <img src="assests/product-8.jpg" class="sm:w-56">
+      <h1 class="text-sm mt-2 justify-start">Basic Flowing Scarf</h1>
+      <div class="flex text-sm text-slate-400 mt-1">
+        <i class="fa-regular fa-star "></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+      <h1 class="text-2xl font-bold text-black mt-2">$26.28</h1>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="w-full md:p-20 bg-slate-100   mt-20">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 px-5 mt-20">
+
+      <div class="bg-white md:ms-[-200px] md:w-60 px-6 py-8 flex flex-col items-start ">
+        <div>  <h1 class="text-2xl md:text-3xl text-gray-400 md:ml-[120px]">Clothings<span class="md:pl-2">Hot</span> </h1></div>
+     <div><h1 class="text-2xl md:text-3xl font-bold text-black md:ml-[120px]">Shoes<span class="md:pl-2">Collection</span></h1></div>
+        
+    <h1 class="text-2xl md:text-3xl text-gray-300 md:ml-[120px]">Accessories</h1>
+      </div>
+      <div class="relative flex justify-center">
+        <img src="https://themewagon.github.io/malefashion/img/product-sale.png" 
+             alt="Product Bag" 
+             class="w-64 md:w-80 lg:w-96 object-contain">
+     
+        <div class="absolute top-4 right-10 bg-black text-white rounded-full w-20 h-20 flex items-center justify-center text-sm">
+          <span class="text-center">Sale Of <br><span class="font-bold text-lg">$29.99</span></span>
+        </div>
+      </div>
+      <div class="text-center md:text-left">
+        <p class="text-red-500 font-semibold uppercase">Deal of the Week</p>
+        <h2 class="text-2xl md:text-3xl font-bold text-black mt-2">Multi-pocket Chest<br>Bag Black</h2>
+        <div class="flex justify-center md:justify-start gap-6 mt-6 text-center">
+          <div>
+            <h1 class="text-3xl font-bold">30 :</h1>
+            <p class="text-gray-500 text-sm">Days</p>
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold">06 :</h1>
+            <p class="text-gray-500 text-sm">Hours</p>
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold">15 :</h1>
+            <p class="text-gray-500 text-sm">Minutes</p>
+          </div>
+          <div>
+            <h1 class="text-3xl font-bold">33</h1>
+            <p class="text-gray-500 text-sm">Seconds</p>
+          </div>
+        </div>
+ <div class="bg-black text-white w-fit px-6 mt-10 py-3 p-6 mx-auto sm:mx-0 
+                rounded cursor-pointer transform transition-all duration-300 hover:bg-red-600 hover:scale-105">
+        <span class="flex items-center gap-2">
+          SHOP NOW <i class="fas fa-arrow-right"></i>
+        </span>
+      </div>
+      </div>
+    </div>
+  </div>
+<div class="max-w-7xl mx-auto  px-4">
+<div class="max-w-7xl mx-auto  px-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-5">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
+      <img src="assests/instagram-1.jpg" class="w-full h-full object-cover" />
+      <img src="assests/instagram-2.jpg" class="w-full h-full object-cover" />
+      <img src="assests/instagram-3.jpg" class="w-full h-full object-cover" />
+      <img src="assests/instagram-4.jpg" class="w-full h-full object-cover" />
+      <img src="assests/instagram-5.jpg" class="w-full h-full object-cover" />
+      <img src="assests/instagram-6.jpg" class="w-full h-full object-cover" />
+    </div>
+    <div class="md:mt-40">
+    <div class="text-center md:text-left space-y-4">
+      <h2 class="text-3xl font-bold">Instagram</h2>
+      <p class="text-gray-600 md:w-sm">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+     
+      <p class="text-red-500 text-4xl md:py-40">#Male_Fashion</p>
+    
+    </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+<div class="max-w-7xl flex flex-col md:flex-row mx-auto mt-40 p-2 justify-between gap-8">
+  <div class="relative">
+    <div>
+      <img src="assests/blog-1.jpg" class="w-full h-auto">
+    </div>
+    <div class="bg-white  w-full md:absolute md:ms-5  md:mt-[-50px] md:w-auto">
+      <p class="text-sm text-slate-400 p-1">
+        <i class="fa-solid fa-calendar text-sm"></i>16 February 2020
+      </p>
+      <h1 class="text-2xl p-1">What Curling Irons Are The</h1>
+      <h1 class="p-1 text-2xl">Best Ones</h1>
+      <p class="text-lg font-stretch-50% p-1 underline tracking-widest">Read More</p>
+    </div>
+  </div>
+  <div class="relative">
+    <div>
+      <img src="assests/blog-2.jpg" class="w-full h-auto">
+    </div>
+    <div class="bg-white w-full md:absolute md:ms-10 md:mt-[-50px] md:w-auto">
+      <p class="text-sm text-slate-400 p-1">
+        <i class="fa-solid fa-calendar text-sm"></i> 21 February 2020
+      </p>
+      <h1 class="text-2xl p-1">Eternity Bands Do Last</h1>
+      <h1 class="p-1 text-2xl">Forever</h1>
+      <p class="text-lg font-stretch-50% p-1 underline tracking-widest">Read More</p>
+    </div>
+  </div>
+  <div class="relative">
+    <div>
+      <img src="assests/blog-3.jpg" class="w-full h-auto">
+    </div>
+    <div class="bg-white  w-full md:absolute md:ms-10 md:mt-[-50px] md:w-auto">
+      <p class="text-sm text-slate-400 p-1">
+        <i class="fa-solid fa-calendar text-sm"></i>16 February 2020
+      </p>
+      <h1 class="text-2xl p-1">The Health Benefits Of </h1>
+      <h1 class="p-1 text-2xl">Sunglasses</h1>
+      <p class="text-lg font-stretch-50% p-1 underline tracking-widest">Read More</p>
+    </div>
+  </div>
+</div>
+<div class="bg-black mt-40 ">
+<div class=" max-w-6xl mx-auto bg-black p-20 grid md:grid-cols-4 mt-5 ">
+  <div class="p-1">
+<img src="https://themewagon.github.io/malefashion/img/footer-logo.png">
+<p class=" text-gray-200 mt-4 items-center">The customer is at the heart of our unique business model, which includes design.</p>
+ <img class="mt-4" src="https://themewagon.github.io/malefashion/img/payment.png"> 
+  </div>
+  <div class="text-gray-300 grid grid-cols md:ms-[100px] mt-5 ">
+    <h1 class="text-xl  text-white p-1">SHOPPING</h1>
+    <p class="">Clothing Store</p>
+    <p class="p-1">Trending<span class="ms-1">Shoes</span></p>
+    <p class="p-1">Accessories</p>
+    <p class="p-1">Sale</p>
+ </div>
+   <div class="text-gray-300 grid grid-cols md:ms-[100px] mt-5 ">
+    <h1 class="text-xl  text-white ">SHOPPING</h1>
+    <p>Contact Us</p>
+    <p>Payment Methods</p>
+    <p>Delivary</p>
+    <p>Return&Exchanges</p>
+</div>
+   <div class="text-gray-300 grid grid-cols md:ms-[100px] mt-5 ">
+    <h1 class="text-xl  text-white">NEWLETTER</h1>
+    <p class="">Be the first to know about new arrivals, look books, sales & promos!</p>
+    <div>
+    <input type="text"  placeholder="Your Email" class="bg-black border-b-2  border-gray-300">
+    </div>
+</div>
+</div>
+<div class="md:ms-[160px] md:p-2">
+ <hr class="text-gray-400 max-w-6xl">
+</div>
+
+<div class="flex justify-center p-2">
+ 
+  <p class="text-gray-300">Copyright © 20252020 All rights reserved | This template is made with <span ><i class="fa-regular text-red-500 fa-heart"></i></span>  by <span class="text-red-500">Colorlib</span></p>
+</div>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const menuBtn = document.getElementById('menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const logo = document.getElementById('logo');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      logo.classList.toggle('hidden');
+      menuBtn.classList.toggle('hidden');
+    });
+
+    const images = [
+      {
+        src: "assests/hero-1.jpg",
+        sub: "Summer Collections",
+        h1: "Fall-Winter",
+        h2: "Collections 2030",
+        para: "A Specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality."
+      },
+      {
+        src: "assests/hero-2.jpg",
+        sub: "Winter Collections",
+        h1: "New Arrivals",
+        h2: "Exclusive 2030",
+        para: "Discover luxury fashion pieces designed to last. Crafted with precision, made to inspire your unique style."
+      }
+    ];
+
+    let currentIndex = 0;
+
+    function ArrowClick(direction) {
+
+      document.getElementById("caurosel").classList.add("opacity-0");
+      document.getElementById("Text").classList.add("opacity-0");
+
+      setTimeout(() => {
+        if (direction === "next") {
+          currentIndex = (currentIndex + 1) % images.length;
+        } else {
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+        }
+
+        const data = images[currentIndex];
+        document.getElementById("caurosel").src = data.src;
+        document.getElementById("subText").textContent = data.sub;
+        document.getElementById("mainHeading1").textContent = data.h1;
+        document.getElementById("mainHeading2").textContent = data.h2;
+        document.getElementById("para").textContent = data.para;
+
+        document.getElementById("caurosel").classList.remove("opacity-0");
+        document.getElementById("Text").classList.remove("opacity-0");
+      }, 400);
+    }
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
